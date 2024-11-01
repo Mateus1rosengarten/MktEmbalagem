@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cinzel:wght@400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Varela+Round&display=swap');
+
+
+
+
+body {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in forwards
+  }
+
+  .move-in {
+    padding:0;
+    animation: moveIn 1s ease-in forwards;
+
+  }
+
+  .move-in-mobile {
+    padding:0;
+    animation: moveInMobile 1s ease-in forwards;
+  }
+ 
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes moveIn {
+  to {
+    padding:3rem;
+  }
+}
+
+@keyframes moveInMobile {
+  to {
+    padding:2rem;
+  }
+}
