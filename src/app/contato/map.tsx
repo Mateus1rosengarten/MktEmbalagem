@@ -55,7 +55,7 @@ const Map: React.FC = () => {
   
 
     return (
-        <div id='map' className="w-full md:w-1/2 h-[250px] sm:h-[400px] md:h-[450px] lg:h-[480px] xl:h-[600px] z-0 shadow-xl md:min-w-[400px]">
+        <div id='map' className="w-full md:w-1/2 h-[250px] sm:h-[35np0px] md:h-[400px] lg:h-[430px] xl:h-[550px] z-0 shadow-xl md:min-w-[400px]">
 
         </div>
 

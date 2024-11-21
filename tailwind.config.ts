@@ -12,7 +12,8 @@ const config: Config = {
       fontFamily:{
         varela:['Varela Round','sans-serif'],
         sans:['Open Sans','sans-serif'],
-       
+        anton:['Anton','sans-serif'],
+        insignia: ['Insignia', 'sans-serif'], 
       },
       colors: {
         background: "var(--background)",
